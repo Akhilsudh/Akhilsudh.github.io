@@ -7,6 +7,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 /*-- Reset Code --*/
 
+
+a {
+color: #b81a1a;
+}
+a:link {
+color: #b81a1a;
+}
+a:hover {
+color: #FF3300;
+}
+
+
 .btn-circle {
   width: 30px;
   height: 30px;
