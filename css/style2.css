@@ -252,7 +252,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 
 /*-- Skills-starts-here --*/
 .wthreeskills-grid-2 h4, .wthreeskills-grid-1 h4{
-	color: white;
+	color: #b81a1a;
 	font-size:1.7em;
 	letter-spacing:1px;
 	font-weight:400;
@@ -312,7 +312,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 	}
 
 	.resp-tab-active span {
-		color: #FFF;
+		color: white;
 		font-family: 'Nunito', sans-serif;
 	}
 
@@ -328,6 +328,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 	}
 
 	.resp-tab-content {
+		color: #b81a1a;
 		display: none;
 		padding-top: 40px;
 	}
@@ -453,6 +454,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 	}
 
 	.b_label {
+		color: #b81a1a;
 		margin-bottom: .5em;
 		font-size: 1.1em;
 	}
