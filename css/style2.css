@@ -563,7 +563,7 @@ ul#myList {
 }
 
 #loadMore {
-	color: #000;
+	color: #b81a1a;
 	font-weight: 600;
 	cursor: pointer;
 	padding: 10px 0;
@@ -584,11 +584,11 @@ ul#myList {
 
 #loadMore:hover {
 	background-color: #b81a1a;
-	color: #fff;
+	color: #e6c900;
 }
 
 #showLess {
-	color: #000;
+	color: #b81a1a;
 	font-weight: 600;
 	cursor: pointer;
 	padding: 10px 0;
@@ -611,7 +611,7 @@ ul#myList {
 
 #showLess:hover {
 	background-color: #b81a1a;
-	color: #fff;
+	color: #e6c900;
 }
 
 .l_g:after {
