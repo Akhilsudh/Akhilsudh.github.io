@@ -12,6 +12,7 @@
   <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"> 
 
   <!-- Local Styles-->
   <style>
@@ -51,8 +52,8 @@
   <body class="w3-black">
 
     <!--Sidebar for large screens -->
-    <nav class="w3-sidebar w3-black w3-bar-block w3-small w3-hide-medium w3-hide-small w3-center" style="width:9%;right:0">
-      <!-- Avatar image in top left corner -->
+    <nav class="w3-sidebar w3-black w3-bar-block w3-small w3-hide-medium w3-hide-small w3-center" style="width:8%;right:0">
+      <!-- Avatar image on top right corner -->
       <img src="img/AkhilShadow.jpg" style="width:100%">
       <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-amber">
         <i class="fa fa-home w3-xxlarge"></i>
@@ -75,11 +76,11 @@
     <!-- Navbar on small and medium screens (Hidden on large screens) -->
     <div class="w3-top w3-hide-large" id="myNavbar">
       <div class="w3-bar w3-black w3-center w3-medium">
-        <div class="w3-dropdown-click w3-left">
+        <div class="w3-dropdown-click w3-right">
           <button class="w3-button w3-ripple w3-hover-amber" onclick="dropDown()">
             <i class="fa fa-bars w3-xlarge"></i>
           </button>
-          <div id="dropDownCard" class="w3-dropdown-content w3-bar-block w3-amber w3-card-4 w3-right">
+          <div id="dropDownCard" class="w3-dropdown-content w3-bar-block w3-amber w3-card-4 w3-right" style="right:0">
             <a href="#" class="w3-bar-item w3-button w3-hover-black">HOME</a>
             <a href="#about" class="w3-bar-item w3-button w3-hover-black">ABOUT</a>
             <a href="#timeline" class="w3-bar-item w3-button w3-hover-black">TIMELINE</a>
@@ -88,7 +89,9 @@
         </div>
         <div class="w3-text-light-grey w3-center">
           <h1 class="w3-hide-large w3-medium">
-              <a class="typewrite" style="font-family: 'Allerta Stencil', Sans-serif; color: white ; text-shadow:1px 1px 0 #444" data-period="2000" data-type='[ "HI !!!", "I AM AKHIL."]'>
+              <a class="typewrite" style="font-family: 'Roboto', sans-serif; color: white ; text-shadow:1px 1px 0 #444" 
+                data-period="500" 
+                data-type='[ "Hi !!!", "I am Akhil.", "नमस्ते !!!", "मैं अखिल हूँ.", "வணக்கம் !!!", "நான் அகில்.", "Salut !!!", "Je Suis Akhil.", "Здравствуй !!!", "Я Ахил.", "嗨 !!!", "我是Akhil."]'>
               <span class="wrap"></span>
               </a>
           </h1>
@@ -101,7 +104,9 @@
       <img src="img/AkhilMain.jpg" alt="boy" class="w3-image" width=100% height=100%>
       <div class="w3-display-topmiddle w3-padding-large w3-wide w3-text-light-grey w3-center">
         <h1 class="w3-hide-medium w3-hide-small w3-jumbo">
-            <a class="typewrite" style="font-family: 'Allerta Stencil', Sans-serif; color: white ; text-shadow:1px 1px 0 #444" data-period="2000" data-type='[ "HI !!!", "I AM AKHIL."]'>
+            <a class="typewrite" style="font-family: 'Roboto', sans-serif; color: white ; text-shadow:1px 1px 0 #444" 
+            data-period="1000" 
+            data-type='[ "Hi !!!", "I am Akhil.", "नमस्ते !!!", "मैं अखिल हूँ.", "வணக்கம் !!!", "நான் அகில்.", "Salut !!!", "Je Suis Akhil.", "Здравствуй !!!", "Я Ахил.", "嗨 !!!", "我是Akhil."]'>
             <span class="wrap"></span>
             </a>
         </h1>
@@ -109,7 +114,7 @@
     </header>
 
     <!-- Page Content -->
-    <div style="margin-right:9%">
+    <div style="margin-right:8%">
     <div class="w3-padding-large" id="main">
 
       <!-- About Section -->
@@ -213,6 +218,8 @@
       <!-- End About Section -->
       </div>
 
+      <hr>
+
       <!-- Timeline Section -->
       <div class="w3-padding-64 w3-content" id="timeline">
           <h2 class="w3-text-light-grey w3-center">MY TIMELINE</h2>
@@ -221,9 +228,15 @@
           <div class="w3-hide-medium w3-hide-small">
 
             <div class="w3-bar w3-black">
-              <button class="w3-bar-item w3-button tablink w3-amber" onclick="openTab(event,'Experience')">Experience</button>
-              <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Education')">Education</button>
-              <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Achievements')">Honors & Achievements</button>
+              <button class="w3-bar-item w3-button tablink w3-amber" onclick="openTab(event,'Experience')">
+                <i class="fa fa-laptop"></i> Experience
+              </button>
+              <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Education')">
+                <i class="fa fa-university"></i> Education
+              </button>
+              <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Achievements')">
+                <i class="fa fa-trophy"></i> Honors & Achievements
+              </button>
             </div>
 
             <div class="w3-padding-64 w3-light-gray w3-content mySlides" id="Experience">
@@ -488,7 +501,7 @@
           <div class="w3-hide-large w3-accordion w3-light-grey">
 
             <button class="w3-button w3-ripple w3-block w3-amber w3-left-align">
-              Experience <i class="fa fa-caret-down"></i>
+              <i class="fa fa-laptop"></i> Experience <i class="fa fa-caret-down"></i>
             </button>
             <div id="Exp" class="w3-show w3-container">
 
@@ -530,7 +543,7 @@
             </div>
 
             <button onclick="accordion('Edu')" class="w3-button w3-ripple w3-block w3-black w3-left-align">
-              Education <i class="fa fa-caret-down"></i>
+              <i class="fa fa-university"></i> Education <i class="fa fa-caret-down"></i>
             </button>
             <div id="Edu" class="w3-hide w3-animate-zoom w3-container">
 
@@ -583,7 +596,7 @@
             </div>
 
             <button onclick="accordion('H&a')" class="w3-button w3-ripple w3-block w3-black w3-left-align">
-              Honors & Achievements <i class="fa fa-caret-down"></i>
+              <i class="fa fa-trophy"></i>  Honors & Achievements <i class="fa fa-caret-down"></i>
             </button>
             <div id="H&a" class="w3-hide w3-animate-zoom w3-container">
 
@@ -720,11 +733,11 @@
       </div>
       <!-- End Experience Section -->
 
+      <hr>
 
       <!-- Contact Section -->
       <div class="w3-padding-64 w3-content w3-text-light-grey" id="contact">
         <h2 class="w3-text-light-grey w3-center">CONTACT ME</h2>
-
         <div class="w3-section">
           <p>
             <i class="fa fa-map-marker fa-fw w3-text-amber w3-xlarge w3-margin-right"></i> Bangalore, IN
