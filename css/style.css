@@ -92,7 +92,7 @@ h4 {
   #sideNav .navbar-brand .img-profile {
     max-width: 12rem;
     max-height: 12rem;
-    border: 0.5rem solid rgba(255, 204, 0);
+    border: 0.5rem solid rgba(255, 204, 0, 1);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -208,7 +208,7 @@ a:hover, a:focus, a:active {
   padding: 3em 2em 2em;
   position: relative;
   color: rgba(0, 0, 0, 0.7);
-  border-left: 2px solid rgba(178, 34, 34);
+  border-left: 2px solid rgba(178, 34, 34, 1);
 }
 
 .timeline-item div{
@@ -241,7 +241,7 @@ a:hover, a:focus, a:active {
   left: -8px;
   border-radius: 10px;
   content: '';
-  border: 2px solid rgba(178, 34, 34);
+  border: 2px solid rgba(178, 34, 34, 1);
   background: #FFCC00;
 }
 
