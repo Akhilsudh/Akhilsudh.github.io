@@ -36,7 +36,7 @@ a {
   color: #d23e32;
 }
 a:hover {
-  color: #cf9939;
+  color: #fdcb44;
 }
 
 .wrapper {
@@ -206,7 +206,10 @@ a:hover {
   font-family: 'Roboto', sans-serif;
   left: 0;
   bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 15px;
   width: 100%;
-  color: #d23e32;
+  color: #fdcb44;
+  background-color: #293237;
   text-align: center;
 }
