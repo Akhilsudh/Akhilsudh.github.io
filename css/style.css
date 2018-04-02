@@ -55,6 +55,10 @@ a:hover {
   position: relative;
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 1s;
+  -moz-animation-name: animatebottom;
+  -moz-animation-duration: 1s;
+  -o-animation-name: animatebottom;
+  -o-animation-duration: 1s;
   animation-name: animatebottom;
   animation-duration: 1s
 }
@@ -64,40 +68,20 @@ a:hover {
   to { bottom:0px; opacity:1 }
 }
 
+@-moz-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@-o-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
 @keyframes animatebottom { 
   from{ bottom:-100px; opacity:0 } 
   to{ bottom:0; opacity:1 }
 }
-
-/* FADE-IN ANIMATION
-.fade-in {
-  animation-name: reset, fade-in;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
-  animation-iteration-count: 1;
-}
-
-@keyframes reset {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-   
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  60% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}  
-*/
 
 @media only screen and (max-width: 479px){
   .wrapper { width: 95%; height: 95%;}
