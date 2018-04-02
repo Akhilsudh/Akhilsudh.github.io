@@ -51,6 +51,25 @@ a:hover {
   border-radius: 10px;
 }
 
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+/* FADE-IN ANIMATION
 .fade-in {
   animation-name: reset, fade-in;
   animation-duration: 1s;
@@ -78,6 +97,7 @@ a:hover {
     opacity: 1;
   }
 }  
+*/
 
 @media only screen and (max-width: 479px){
   .wrapper { width: 95%; height: 95%;}
