@@ -105,6 +105,17 @@ a:hover {
   background-position: 0 50%;
 }
 
+.header-img-404 {
+  background-image: url("../img/travolta.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-position: 0 50%;
+}
+
 .avatar {
   width: 55%;
   height: auto;
@@ -183,7 +194,7 @@ a:hover {
   border-radius: 100px;
 }
 .social-list > li > a:hover {
-  background: #c30eb8;
+  background: #d33f33;
   color: #fff;
 }
 .social-list > li > a:hover.fa-github-alt {
