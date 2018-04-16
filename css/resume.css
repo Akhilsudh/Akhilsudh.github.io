@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
 body {
-    background-color: #B22222;
+    background-color: #0b3f65;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -39,7 +39,7 @@ h4 {
     font-size: 1.5rem;
     margin-bottom: 0px;
     font-weight: 700;
-    color: #B22222;
+    color: #0b3f65;
 }
 
 p {
@@ -54,30 +54,17 @@ p {
 }
 
 a {
-    color: #B22222;
+    color: #0b3f65;
 }
-
-button {
-    background: #d23e32;
-    color: #fdcb44;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    width: 200px;
-    height: 40px;
-    border: solid 3px #fdcb44; 
-    border-radius: 10px;
-    margin-left: 10px;
-}
-button:hover {
-    background: #fdcb44;
-    color: #d23e32;
+a:hover {
+    color: #fe9c24;
 }
 
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 10px solid #B22222;
+    border-top: 10px solid #0b3f65;
     margin: 1em 0;
     padding: 0; 
 }
@@ -120,6 +107,24 @@ hr {
     border-radius: 10px;
 }
 
+.resume-button {
+    background: #0b3f65;
+    color: #ffc023;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 40px;
+    border: solid 3px #ffc023; 
+    border-radius: 10px;
+}
+.resume-button:hover {
+    background: #ffc023;
+    color: #0b3f65;
+}
+
 .skillDiv {
     margin:10px;
 }
@@ -158,7 +163,7 @@ hr {
     padding: 3em 2em 2em;
     position: relative;
     color: rgba(0, 0, 0, 0.7);
-    border-left: 2px solid rgba(178, 34, 34, 1);
+    border-left: 2px solid rgba(11, 63, 101, 1);
 }
 
 .timeline-item div{
@@ -172,7 +177,7 @@ hr {
 
 .timeline-item::before {
     content: attr(date-is);
-    color: #B22222;
+    color: #0b3f65;
     position: absolute;
     left: 2em;
     font-weight: bold;
@@ -192,12 +197,12 @@ hr {
     left: -10px;
     border-radius: 10px;
     content: '';
-    border: 2px solid rgba(178, 34, 34, 1);
-    background: #fdcb44;
+    border: 2px solid rgba(11, 63, 101, 1);
+    background: #ffc023;
 }
 
 .timeline-item:last-child {
-    -o-border-image: linear-gradient(to bottom, rgba(178, 34, 34, 0.8) 60%, transparent) 1 100%;
-    border-image: -webkit-linear-gradient(top, rgba(178, 34, 34, 0.8) 60%, transparent) 1 100%;
-    border-image: linear-gradient(to bottom, rgba(178, 34, 34, 0.8) 60%, transparent) 1 100%;
+    -o-border-image: linear-gradient(to bottom, rgba(11, 63, 101, 0.8) 60%, transparent) 1 100%;
+    border-image: -webkit-linear-gradient(top, rgba(11, 63, 101, 0.8) 60%, transparent) 1 100%;
+    border-image: linear-gradient(to bottom, rgba(11, 63, 101, 0.8) 60%, transparent) 1 100%;
 }

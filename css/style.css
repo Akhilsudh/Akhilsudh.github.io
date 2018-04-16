@@ -9,34 +9,19 @@ html, body {
 }
 
 body {
-  background: #d23e32;
-  background-image: -webkit-radial-gradient(center, circle cover, #58000C 0%, #d23e32 80%);
-  background-image: -moz-radial-gradient(center, circle cover, #58000C 0%, #d23e32 80%);
-  background-image: -o-radial-gradient(center, circle cover, #58000C 0%, #d23e32 80%);
-  background-image: radial-gradient(center, circle cover, #58000C 0%, #d23e32 80%);
+  background: #0a3453;
+  background-image: -webkit-radial-gradient(center, circle cover, #000000 0%, #0a3453 70%);
+  background-image: -moz-radial-gradient(center, circle cover, #000000 0%, #0a3453 70%);
+  background-image: -o-radial-gradient(center, circle cover, #000000 0%, #0a3453 70%);
+  background-image: radial-gradient(center, circle cover, #000000 0%, #0a3453 70%);
   background-size: 100%;
 }
 
-button {
-  background: #d23e32;
-  color: #fdcb44;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  width: 200px;
-  height: 40px;
-  border: solid 3px #fdcb44; 
-  border-radius: 10px;
-}
-button:hover {
-  background: #fdcb44;
-  color: #d23e32;
-}
-
 a {
-  color: #d23e32;
+  color: #fe9c24;
 }
 a:hover {
-  color: #fdcb44;
+  color: #ffc023;
 }
 
 .wrapper {
@@ -97,11 +82,12 @@ a:hover {
 .header-img {
   background-image: url("../img/header.jpg");
   position: absolute;
+  overflow: none;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: 100%;
+  background-size: 110%;
   background-position: 0 50%;
 }
 
@@ -151,7 +137,7 @@ a:hover {
 }
 
 .location {
-  color: #b3b3b3;
+  color: #a3a0a0;
   text-decoration: none;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -161,8 +147,25 @@ a:hover {
 }
 
 .location .fa {
-  color: #b3b3b3;
+  color: #a3a0a0;
   margin-right: 4px;
+}
+
+.resume-button {
+  background: #0b3f65;
+  color: #ffc023;
+  text-decoration: none;
+  padding: 5px 20px 5px 20px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  width: 200px;
+  height: 40px;
+  border: solid 3px #ffc023; 
+  border-radius: 10px;
+}
+.resume-button:hover {
+  background: #ffc023;
+  color: #0b3f65;
 }
 
 .social-list {
@@ -194,7 +197,7 @@ a:hover {
   border-radius: 100px;
 }
 .social-list > li > a:hover {
-  background: #d33f33;
+  background: #0b3f65;
   color: #fff;
 }
 .social-list > li > a:hover.fa-github-alt {
@@ -224,7 +227,7 @@ a:hover {
   padding-top: 5px;
   padding-bottom: 15px;
   width: 100%;
-  color: #fdcb44;
-  background-color: #293237;
+  color: #ffc023;
+  background-color: #0b3f65;
   text-align: center;
 }
