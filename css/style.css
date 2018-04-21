@@ -32,7 +32,7 @@ a:hover {
   max-width: 350px;
   overflow: hidden;
   background-color: #EEE;
-  height: 660px;
+  border: solid 3px #696969;
   border-radius: 10px;
 }
 
