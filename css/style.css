@@ -9,19 +9,19 @@ html, body {
 }
 
 body {
-  background: #0a3453;
-  background-image: -webkit-radial-gradient(center, circle cover, #000000 0%, #0a3453 70%);
-  background-image: -moz-radial-gradient(center, circle cover, #000000 0%, #0a3453 70%);
-  background-image: -o-radial-gradient(center, circle cover, #000000 0%, #0a3453 70%);
-  background-image: radial-gradient(center, circle cover, #000000 0%, #0a3453 70%);
+  background: #00b76e;
+  background-image: -webkit-radial-gradient(center, circle cover, #000000 0%, #00b76e 90%);
+  background-image: -moz-radial-gradient(center, circle cover, #000000 0%, #00b76e 90%);
+  background-image: -o-radial-gradient(center, circle cover, #000000 0%, #00b76e 90%);
+  background-image: radial-gradient(center, circle cover, #000000 0%, #00b76e 90%);
   background-size: 100%;
 }
 
 a {
-  color: #fe9c24;
+  color: #00b76e;
 }
 a:hover {
-  color: #ffc023;
+  color: #00f771;
 }
 
 .wrapper {
@@ -32,8 +32,8 @@ a:hover {
   max-width: 350px;
   overflow: hidden;
   background-color: #EEE;
-  border: solid 2px #696969;
-  border-radius: 10px;
+  border: solid 2px #131313;
+  border-radius: 5px;
 }
 
 .animate-bottom {
@@ -116,7 +116,7 @@ a:hover {
   padding-bottom: 100%;
   background-size: 100%;
   background-position: 0 50%;
-  border: solid 5px #fdcb44;
+  border: solid 2px #131313;
 }
 
 .name {
@@ -124,20 +124,20 @@ a:hover {
   font-weight: 50;
   font-family: 'Saira Extra Condensed', sans-serif;
   margin-bottom: 0px;
-  color: #3a3a3a;
+  color: #131313;
   margin-top: 0px;
 }
 
 .occupation {
   font-size: 18px;
   font-family: 'Abel', sans-serif;
-  color: #707070;
+  color: #3a3a3a;
   margin-top: 0;
   margin-bottom: 2px;
 }
 
 .location {
-  color: #a3a0a0;
+  color: #3a3a3a;
   text-decoration: none;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -147,25 +147,25 @@ a:hover {
 }
 
 .location .fa {
-  color: #a3a0a0;
+  color: #3a3a3a;
   margin-right: 4px;
 }
 
 .resume-button {
-  background: #0b3f65;
-  color: #ffc023;
+  background: #131313;
+  color: #00b76e;
   text-decoration: none;
   padding: 5px 20px 5px 20px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   width: 200px;
   height: 40px;
-  border: solid 3px #ffc023; 
+  border: solid 2px #00b76e; 
   border-radius: 10px;
 }
 .resume-button:hover {
-  background: #ffc023;
-  color: #0b3f65;
+  background: #00b76e;
+  color: #131313;
 }
 
 .social-list {
@@ -188,7 +188,7 @@ a:hover {
   line-height: 45px;
   font-size: 28px;
   text-decoration: none;
-  color: #8a8888;
+  color: #3a3a3a;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
@@ -227,7 +227,7 @@ a:hover {
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
-  color: #ffc023;
-  background-color: #0b3f65;
+  color: #00b76e;
+  background-color: #131313;
   text-align: center;
 }

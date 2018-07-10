@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
 body {
-    background-color: #0b3f65;
+    background-color: #02a866;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -16,7 +16,7 @@ h6 {
     font-family: 'Saira Extra Condensed', serif;
     font-weight: 700;
     margin-left: 10px;
-    color: #343a40;
+    color: #131313;
 }
 
 h1 {
@@ -39,7 +39,7 @@ h4 {
     font-size: 1.5rem;
     margin-bottom: 0px;
     font-weight: 700;
-    color: #0b3f65;
+    color: #131313;
 }
 
 p {
@@ -54,17 +54,17 @@ p {
 }
 
 a {
-    color: #0b3f65;
+    color: #131313;
 }
 a:hover {
-    color: #fe9c24;
+    color: #00b76e;
 }
 
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 10px solid #0b3f65;
+    border-top: 10px solid #02a866;
     margin: 1em 0;
     padding: 0; 
 }
@@ -104,12 +104,12 @@ hr {
 .mainDiv {
     background-color: white;
     margin:1px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .resume-button {
-    background: #0b3f65;
-    color: #ffc023;
+    background: #131313;
+    color: #00b76e;
     text-decoration: none;
     margin-left: 10px;
     padding: 5px 20px 5px 20px;
@@ -117,12 +117,12 @@ hr {
     font-family: 'Roboto', sans-serif;
     width: 200px;
     height: 40px;
-    border: solid 3px #ffc023; 
+    border: solid 3px #00b76e; 
     border-radius: 10px;
 }
 .resume-button:hover {
-    background: #ffc023;
-    color: #0b3f65;
+    background: #00b76e;
+    color: #131313;
 }
 
 .skillDiv {
@@ -163,7 +163,7 @@ hr {
     padding: 3em 2em 2em;
     position: relative;
     color: rgba(0, 0, 0, 0.7);
-    border-left: 2px solid rgba(11, 63, 101, 1);
+    border-left: 2px solid #131313
 }
 
 .timeline-item div{
@@ -177,7 +177,7 @@ hr {
 
 .timeline-item::before {
     content: attr(date-is);
-    color: #0b3f65;
+    color: #131313;
     position: absolute;
     left: 2em;
     font-weight: bold;
@@ -197,12 +197,12 @@ hr {
     left: -10px;
     border-radius: 10px;
     content: '';
-    border: 2px solid rgba(11, 63, 101, 1);
-    background: #ffc023;
+    border: 2px solid #131313;
+    background: #00b76e;
 }
 
 .timeline-item:last-child {
-    -o-border-image: linear-gradient(to bottom, rgba(11, 63, 101, 0.8) 60%, transparent) 1 100%;
-    border-image: -webkit-linear-gradient(top, rgba(11, 63, 101, 0.8) 60%, transparent) 1 100%;
-    border-image: linear-gradient(to bottom, rgba(11, 63, 101, 0.8) 60%, transparent) 1 100%;
+    -o-border-image: linear-gradient(to bottom, #131313 60%, transparent) 1 100%;
+    border-image: -webkit-linear-gradient(top, #131313 60%, transparent) 1 100%;
+    border-image: linear-gradient(to bottom, #131313 60%, transparent) 1 100%;
 }
