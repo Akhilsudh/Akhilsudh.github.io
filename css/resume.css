@@ -181,7 +181,7 @@ hr {
     position: absolute;
     left: 2em;
     font-weight: bold;
-    top: 1em;
+    top: 0.8em;
     display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -192,7 +192,7 @@ hr {
     width: 15px;
     height: 15px;
     display: block;
-    top: 1em;
+    top: 0.5em;
     position: absolute;
     left: -10px;
     border-radius: 10px;
