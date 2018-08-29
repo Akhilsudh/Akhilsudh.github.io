@@ -146,6 +146,10 @@ a:hover {
   padding-bottom: 15px;
 }
 
+.location:hover {
+  color: #2b2b2b;
+}
+
 .location .fa {
   color: #3a3a3a;
   margin-right: 4px;
