@@ -203,8 +203,8 @@ a:hover {
   border-radius: 100px;
 }
 .social-list > li > a:hover {
-  background: #0b3f65;
-  color: #fff;
+  background: #131313;
+  color: #ffffff;
 }
 .social-list > li > a:hover.fa-github-alt {
   background: #24292e;
