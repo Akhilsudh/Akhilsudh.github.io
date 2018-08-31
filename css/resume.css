@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
 body {
-    background-color: #02a866;
+    background-color: #9c9c9c;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -54,18 +54,18 @@ p {
 }
 
 a {
-    color: #006400;
+    color: #000000;
     font-weight: bold;
 }
 a:hover {
-    color: #00b76e;
+    color: #464242;
 }
 
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 10px solid #02a866;
+    border-top: 10px solid #9c9c9c;
     margin: 1em 0;
     padding: 0; 
 }
@@ -109,8 +109,8 @@ hr {
 }
 
 .resume-button {
-    background: #131313;
-    color: #00b76e;
+    background: #DCDCDC;
+    color: #131313;
     text-decoration: none;
     font-weight: normal;
     margin-left: 10px;
@@ -119,12 +119,14 @@ hr {
     font-family: 'Roboto', sans-serif;
     width: 200px;
     height: 40px;
-    border: solid 3px #00b76e; 
+    border: solid 2px #131313; 
     border-radius: 10px;
 }
 .resume-button:hover {
-    background: #00b76e;
-    color: #131313;
+    background: #131313;
+    color: #DCDCDC;
+    border: solid 2px #DCDCDC; 
+    border-radius: 10px;
 }
 
 .skillDiv {
@@ -200,7 +202,7 @@ hr {
     border-radius: 10px;
     content: '';
     border: 2px solid #131313;
-    background: #00b76e;
+    background: #9c9c9c;
 }
 
 .timeline-item:last-child {

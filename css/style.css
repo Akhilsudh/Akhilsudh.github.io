@@ -9,19 +9,19 @@ html, body {
 }
 
 body {
-  background: #00b76e;
-  background-image: -webkit-radial-gradient(center, circle cover, #000000 0%, #00b76e 90%);
-  background-image: -moz-radial-gradient(center, circle cover, #000000 0%, #00b76e 90%);
-  background-image: -o-radial-gradient(center, circle cover, #000000 0%, #00b76e 90%);
-  background-image: radial-gradient(center, circle cover, #000000 0%, #00b76e 90%);
+  background: #DCDCDC;
+  background-image: -webkit-radial-gradient(center, circle cover, #000000 0%, #DCDCDC 90%);
+  background-image: -moz-radial-gradient(center, circle cover, #000000 0%, #DCDCDC 90%);
+  background-image: -o-radial-gradient(center, circle cover, #000000 0%, #DCDCDC 90%);
+  background-image: radial-gradient(center, circle cover, #000000 0%, #DCDCDC 90%);
   background-size: 100%;
 }
 
 a {
-  color: #00b76e;
+  color: #DCDCDC;
 }
 a:hover {
-  color: #00f771;
+  color: #FFFFFF;
 }
 
 .wrapper {
@@ -31,7 +31,7 @@ a:hover {
   width: 350px;
   max-width: 350px;
   overflow: hidden;
-  background-color: #EEE;
+  background-color: #EEEEEE;
   border: solid 2px #131313;
   border-radius: 5px;
 }
@@ -156,20 +156,22 @@ a:hover {
 }
 
 .resume-button {
-  background: #131313;
-  color: #00b76e;
   text-decoration: none;
   padding: 5px 20px 5px 20px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   width: 200px;
   height: 40px;
-  border: solid 2px #00b76e; 
+  background: #DCDCDC;
+  color: #131313;
+  border: solid 2px #131313; 
   border-radius: 10px;
 }
 .resume-button:hover {
-  background: #00b76e;
-  color: #131313;
+  background: #131313;
+  color: #DCDCDC;
+  border: solid 2px #DCDCDC; 
+  border-radius: 10px;
 }
 
 .social-list {
@@ -231,7 +233,7 @@ a:hover {
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
-  color: #00b76e;
+  color: #DCDCDC;
   background-color: #131313;
   text-align: center;
 }
