@@ -7,18 +7,13 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
 body {
-  background: #DCDCDC;
-  background-image: -webkit-radial-gradient(center, circle cover, #000000 0%, #DCDCDC 90%);
-  background-image: -moz-radial-gradient(center, circle cover, #000000 0%, #DCDCDC 90%);
-  background-image: -o-radial-gradient(center, circle cover, #000000 0%, #DCDCDC 90%);
-  background-image: radial-gradient(center, circle cover, #000000 0%, #DCDCDC 90%);
-  background-size: 100%;
+  background-image: url("../img/seamlessbg.png");
+  background-repeat: repeat;
 }
 
 a {
-  color: #DCDCDC;
+  color: #131313;
 }
 a:hover {
   color: #FFFFFF;
@@ -27,11 +22,11 @@ a:hover {
 .wrapper {
   position: relative;
   text-align: center;
-  margin: 2vw auto;
+  margin: 6vw auto;
   width: 350px;
   max-width: 350px;
   overflow: hidden;
-  background-color: #EEEEEE;
+  background-color: #FAFAFA;
   border: solid 2px #131313;
   border-radius: 5px;
 }
@@ -87,7 +82,7 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: 110%;
+  background-size: 105%;
   background-position: 0 50%;
 }
 
@@ -162,15 +157,15 @@ a:hover {
   font-family: 'Roboto', sans-serif;
   width: 200px;
   height: 40px;
-  background: #DCDCDC;
-  color: #131313;
-  border: solid 2px #131313; 
+  background: #3ABC79;
+  color: #00112b;
+  border: solid 2px #00112b; 
   border-radius: 10px;
 }
 .resume-button:hover {
-  background: #131313;
-  color: #DCDCDC;
-  border: solid 2px #DCDCDC; 
+  background: #00112b;
+  color: #3ABC79;
+  border: solid 2px #3ABC79; 
   border-radius: 10px;
 }
 
@@ -233,7 +228,7 @@ a:hover {
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
-  color: #DCDCDC;
-  background-color: #131313;
+  color: #131313;
+  background-color: #3ABC79;
   text-align: center;
 }
