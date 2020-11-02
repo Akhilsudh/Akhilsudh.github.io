@@ -342,7 +342,7 @@ a {
   margin: 4px 6px;
   cursor: pointer;
   border-radius: 10px;
-  border-color: #13547a;
+  border-color: white;
   font-size: 0.875em;
   display: inline-block;
   transition: all 0.3s;
@@ -350,6 +350,7 @@ a {
 
 .lowerButton:hover {
   border-width: 2px;
+  border-color: #13547a;
   background: #ffffff;
   color: #13547a;
 }
