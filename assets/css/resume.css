@@ -383,14 +383,15 @@ section {
 .card {
   background-color: #fff;
   min-width: 100%;
-  height: 300px;
+  margin: 0;
   display: flex;
   overflow-x: auto;
 }
 .card-content {
   overflow: hidden;
+  text-overflow: ellipsis;
   text-align: left;
-  min-width: 200px;
+  min-width: 250px;
   margin: 5px;
   box-sizing: border-box;
   break-inside: avoid;
