@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "untitled-font-2";
-  src:url("fonts/untitled-font-2.eot");
-  src:url("fonts/untitled-font-2.eot?#iefix") format("embedded-opentype"),
-    url("fonts/untitled-font-2.woff") format("woff"),
-    url("fonts/untitled-font-2.ttf") format("truetype"),
-    url("fonts/untitled-font-2.svg#untitled-font-2") format("svg");
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
   font-weight: normal;
   font-style: normal;
 
 }
 
 [data-icon]:before {
-  font-family: "untitled-font-2" !important;
+  font-family: "untitled-font-1" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -27,7 +27,7 @@
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "untitled-font-2" !important;
+  font-family: "untitled-font-1" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -38,81 +38,87 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-linkedin:before {
+.icon-facebook:before {
   content: "\61";
 }
-.icon-github-alt:before {
+.icon-github:before {
   content: "\62";
 }
-.icon-facebook:before {
+.icon-linkedin:before {
   content: "\63";
 }
 .icon-twitter:before {
   content: "\64";
 }
-.icon-gmail:before {
+.icon-medium:before {
   content: "\65";
 }
-.icon-medium:before {
+.icon-playstation:before {
   content: "\66";
 }
-.icon-laptop:before {
+.icon-xbox:before {
   content: "\67";
 }
-.icon-book:before {
+.icon-steam:before {
   content: "\68";
 }
-.icon-tools:before {
+.icon-laptop:before {
   content: "\69";
 }
-.icon-building:before {
+.icon-code:before {
   content: "\6a";
 }
-.icon-certificate:before {
+.icon-book:before {
   content: "\6b";
 }
-.icon-user:before {
+.icon-tools:before {
   content: "\6c";
 }
-.icon-calendar:before {
+.icon-building:before {
   content: "\6d";
 }
-.icon-plane:before {
+.icon-calendar:before {
   content: "\6e";
 }
-.icon-university:before {
+.icon-user:before {
   content: "\6f";
 }
-.icon-trophy:before {
+.icon-certificate:before {
   content: "\70";
 }
 .icon-football:before {
   content: "\71";
 }
-.icon-heart:before {
+.icon-trophy:before {
   content: "\72";
 }
-.icon-pdf:before {
+.icon-university:before {
   content: "\73";
 }
-.icon-arrow:before {
+.icon-plane:before {
   content: "\74";
 }
-.icon-steam:before {
+.icon-heart:before {
   content: "\75";
 }
-.icon-playstation:before {
+.icon-gmail:before {
   content: "\76";
 }
-.icon-xbox:before {
+.icon-pdf:before {
   content: "\77";
 }
-.icon-gamepad:before {
+.icon-arrow-up:before {
   content: "\78";
 }
 .icon-twitch:before {
   content: "\79";
 }
-.icon-code:before {
+.icon-envelope:before {
+  content: "\41";
+}
+.icon-rss:before {
   content: "\7a";
+}
+.icon-at-sign:before {
+  content: "\42";
 }

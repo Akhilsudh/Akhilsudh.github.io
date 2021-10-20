@@ -184,13 +184,13 @@ a {
 
 .profile-card__name {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 35px;
   color: #13547a;
   margin-bottom: 15px;
 }
 
 .profile-card__txt {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   color: #324e63;
   margin-bottom: 15px;
@@ -309,8 +309,18 @@ a {
   box-shadow: 0px 4px 10px rgba(63, 65, 67, 0.7);
 }
 
+.profile-card-social__item.mail {
+  background: linear-gradient(45deg, #626296, #454579);
+  box-shadow: 0px 4px 10px rgba(63, 65, 67, 0.7);
+}
+
 .profile-card-social__item.gmail {
   background: linear-gradient(45deg, #ee2c2c, #a30303);
+  box-shadow: 0px 4px 10px rgba(63, 65, 67, 0.7);
+}
+
+.profile-card-social__item.blog {
+  background: linear-gradient(45deg, #fcae00, #e45600);
   box-shadow: 0px 4px 10px rgba(63, 65, 67, 0.7);
 }
 
