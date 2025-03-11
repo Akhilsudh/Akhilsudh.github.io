@@ -373,3 +373,12 @@ lowerButton-red {
     scale: 1.1;
   }
 }
+
+#mobileshow { 
+  display:inline; 
+}
+@media screen and (max-width: 500px) {
+  #mobileshow { 
+    display:none;
+  }
+}
